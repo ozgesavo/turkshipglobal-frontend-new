@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tedarikçiler - TurkShipGlobal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>TurkShipGlobal</h1>
+        </div>
+        <nav class="main-nav">
+          <button class="mobile-menu-toggle" aria-label="Ana menüyü aç">
+            <span class="hamburger"></span>
+          </button>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+            <li class="nav-item"><a href="suppliers.html" class="nav-link active">Tedarikçiler</a></li>
+            <li class="nav-item"><a href="products.html" class="nav-link">Ürünler</a></li>
+            <li class="nav-item"><a href="orders.html" class="nav-link">Siparişler</a></li>
+          </ul>
+        </nav>
+        <div class="user-actions">
+          <button class="btn btn-outline">Giriş Yap</button>
+          <button class="btn btn-primary">Kayıt Ol</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h2 class="page-title">Tedarikçiler</h2>
+        <p class="page-description">Türkiye'nin en kaliteli ürünlerini sunan güvenilir tedarikçilerimizle tanışın.</p>
+      </div>
+    </section>
+
+    <section class="suppliers-filters">
+      <div class="container">
+        <div class="filters-container">
+          <div class="filter-group">
+            <label for="category-filter">Kategori</label>
+            <select id="category-filter" class="filter-select">
+              <option value="">Tüm Kategoriler</option>
+              <option value="gida">Gıda & İçecek</option>
+              <option value="tekstil">Tekstil & Giyim</option>
+              <option value="el-sanatlari">El Sanatları</option>
+              <option value="kozmetik">Kozmetik & Bakım</option>
+              <option value="dekorasyon">Ev & Dekorasyon</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="location-filter">Konum</label>
+            <select id="location-filter" class="filter-select">
+              <option value="">Tüm Konumlar</option>
+              <option value="istanbul">İstanbul</option>
+              <option value="ankara">Ankara</option>
+              <option value="izmir">İzmir</option>
+              <option value="bursa">Bursa</option>
+              <option value="antalya">Antalya</option>
+            </select>
+          </div>
+          <div class="filter-group">
+            <label for="sort-filter">Sıralama</label>
+            <select id="sort-filter" class="filter-select">
+              <option value="popular">Popülerlik</option>
+              <option value="rating">Değerlendirme</option>
+              <option value="new">En Yeni</option>
+              <option value="name-asc">İsim (A-Z)</option>
+              <option value="name-desc">İsim (Z-A)</option>
+            </select>
+          </div>
+          <button class="btn btn-primary filter-button">Filtrele</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="suppliers-list">
+      <div class="container">
+        <div class="suppliers-grid">
+          <div class="supplier-card">
+            <div class="supplier-logo">
+              <img src="https://via.placeholder.com/150x150" alt="İstanbul Şekerleme Logosu">
+            </div>
+            <div class="supplier-badge premium">Premium</div>
+            <h3 class="supplier-name">İstanbul Şekerleme</h3>
+            <p class="supplier-location"><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+            <p class="supplier-categories">Gıda, Tatlı, Şekerleme</p>
+            <div class="supplier-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-value">4.5</span>
+              <span class="rating-count">(120)</span>
+            </div>
+            <p class="supplier-description">1950'den beri geleneksel Türk tatlıları ve şekerlemeleri üreten köklü bir aile işletmesi.</p>
+            <div class="supplier-actions">
+              <a href="supplier-detail.html?id=1" class="btn btn-primary">Detaylar</a>
+              <button class="btn btn-outline">İletişim</button>
+            </div>
+          </div>
+          
+          <div class="supplier-card">
+            <div class="supplier-logo">
+              <img src="https://via.placeholder.com/150x150" alt="Kapadokya Seramik Logosu">
+            </div>
+            <div class="supplier-badge premium">Premium</div>
+            <h3 class="supplier-name">Kapadokya Seramik</h3>
+            <p class="supplier-location"><i class="fas fa-map-marker-alt"></i> Nevşehir, Türkiye</p>
+            <p class="supplier-categories">El Sanatları, Seramik, Dekorasyon</p>
+            <div class="supplier-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="rating-value">4.9</span>
+              <span class="rating-count">(85)</span>
+            </div>
+            <p class="supplier-description">Kapadokya bölgesinin eşsiz kültürel mirasını yansıtan el yapımı seramik ürünler.</p>
+            <div class="supplier-actions">
+              <a href="supplier-detail.html?id=2" class="btn btn-primary">Detaylar</a>
+              <button class="btn btn-outline">İletişim</button>
+            </div>
+          </div>
+          
+          <div class="supplier-card">
+            <div class="supplier-logo">
+              <img src="https://via.placeholder.com/150x150" alt="Osmanlı Kahvecisi Logosu">
+            </div>
+            <h3 class="supplier-name">Osmanlı Kahvecisi</h3>
+            <p class="supplier-location"><i class="fas fa-map-marker-alt"></i> Ankara, Türkiye</p>
+            <p class="supplier-categories">İçecek, Kahve, Çay</p>
+            <div class="supplier-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <span class="rating-value">4.0</span>
+              <span class="rating-count">(62)</span>
+            </div>
+            <p class="supplier-description">Geleneksel Türk kahvesi ve çay çeşitlerini modern paketleme ile sunan marka.</p>
+            <div class="supplier-actions">
+              <a href="supplier-detail.html?id=3" class="btn btn-primary">Detaylar</a>
+              <button class="btn btn-outline">İletişim</button>
+            </div>
+          </div>
+          
+          <div class="supplier-card">
+            <div class="supplier-logo">
+              <img src="https://via.placeholder.com/150x150" alt="Anadolu Dokuma Logosu">
+            </div>
+            <h3 class="supplier-name">Anadolu Dokuma</h3>
+            <p class="supplier-location"><i class="fas fa-map-marker-alt"></i> Konya, Türkiye</p>
+            <p class="supplier-categories">Tekstil, Halı, Kilim</p>
+            <div class="supplier-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <span class="rating-value">4.6</span>
+              <span class="rating-count">(94)</span>
+            </div>
+            <p class="supplier-description">Geleneksel Anadolu motiflerini taşıyan el dokuma halı ve kilimler.</p>
+            <div class="supplier-actions">
+              <a href="supplier-detail.html?id=4" class="btn btn-primary">Detaylar</a>
+              <button class="btn btn-outline">İletişim</button>
+            </div>
+          </div>
+          
+          <div class="supplier-card">
+            <div class="supplier-logo">
+              <img src="https://via.placeholder.com/150x150" alt="Bursa İpek Logosu">
+            </div>
+            <div class="supplier-badge new">Yeni</div>
+            <h3 class="supplier-name">Bursa İpek</h3>
+            <p class="supplier-location"><i class="fas fa-map-marker-alt"></i> Bursa, Türkiye</p>
+            <p class="supplier-categories">Tekstil, İpek, Eşarp</p>
+            <div class="supplier-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+              </div>
+              <span class="rating-value">3.5</span>
+              <span class="rating-count">(28)</span>
+            </div>
+            <p class="supplier-description">Bursa'nın meşhur ipek ürünlerini modern tasarımlarla buluşturan marka.</p>
+            <div class="supplier-actions">
+              <a href="supplier-detail.html?id=5" class="btn btn-primary">Detaylar</a>
+              <button class="btn btn-outline">İletişim</button>
+            </div>
+          </div>
+          
+          <div class="supplier-card">
+            <div class="supplier-logo">
+              <img src="https://via.placeholder.com/150x150" alt="Antep Baklavacısı Logosu">
+            </div>
+            <h3 class="supplier-name">Antep Baklavacısı</h3>
+            <p class="supplier-location"><i class="fas fa-map-marker-alt"></i> Gaziantep, Türkiye</p>
+            <p class="supplier-categories">Gıda, Tatlı, Baklava</p>
+            <div class="supplier-rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <span class="rating-value">4.8</span>
+              <span class="rating-count">(156)</span>
+            </div>
+            <p class="supplier-description">Gaziantep'in coğrafi işaretli baklavasını özel paketleme ile dünyaya sunan firma.</p>
+            <div class="supplier-actions">
+              <a href="supplier-detail.html?id=6" class="btn btn-primary">Detaylar</a>
+              <button class="btn btn-outline">İletişim</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="pagination">
+          <button class="pagination-button" disabled><i class="fas fa-chevron-left"></i></button>
+          <button class="pagination-button active">1</button>
+          <button class="pagination-button">2</button>
+          <button class="pagination-button">3</button>
+          <span class="pagination-ellipsis">...</span>
+          <button class="pagination-button">10</button>
+          <button class="pagination-button"><i class="fas fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+    
+    <section class="become-supplier">
+      <div class="container">
+        <div class="become-supplier-content">
+          <h2>Tedarikçi Olmak İster misiniz?</h2>
+          <p>TurkShipGlobal platformuna katılarak ürünlerinizi global pazarlara ulaştırın. Hemen başvurun, ekibimiz sizinle iletişime geçsin.</p>
+          <button class="btn btn-primary btn-lg">Tedarikçi Başvurusu</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>TurkShipGlobal</h2>
+          <p>Türk Ürünlerini Dünyaya Açan Platform</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3>Platform</h3>
+            <ul>
+              <li><a href="index.html">Ana Sayfa</a></li>
+              <li><a href="suppliers.html">Tedarikçiler</a></li>
+              <li><a href="products.html">Ürünler</a></li>
+              <li><a href="orders.html">Siparişler</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3>Destek</h3>
+            <ul>
+              <li><a href="#">Yardım Merkezi</a></li>
+              <li><a href="#">SSS</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Geri Bildirim</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3>Yasal</h3>
+            <ul>
+              <li><a href="#">Kullanım Koşulları</a></li>
+              <li><a href="#">Gizlilik Politikası</a></li>
+              <li><a href="#">Çerez Politikası</a></li>
+              <li><a href="#">KVKK</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-social">
+          <h3>Bizi Takip Edin</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TurkShipGlobal. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

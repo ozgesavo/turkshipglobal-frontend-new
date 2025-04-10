@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Türk Kahvesi Seti - TurkShipGlobal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="product-detail.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo">
+          <h1>TurkShipGlobal</h1>
+        </div>
+        <nav class="main-nav">
+          <button class="mobile-menu-toggle" aria-label="Ana menüyü aç">
+            <span class="hamburger"></span>
+          </button>
+          <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Ana Sayfa</a></li>
+            <li class="nav-item"><a href="suppliers.html" class="nav-link">Tedarikçiler</a></li>
+            <li class="nav-item"><a href="products.html" class="nav-link active">Ürünler</a></li>
+            <li class="nav-item"><a href="orders.html" class="nav-link">Siparişler</a></li>
+          </ul>
+        </nav>
+        <div class="user-actions">
+          <button class="btn btn-outline">Giriş Yap</button>
+          <button class="btn btn-primary">Kayıt Ol</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="breadcrumb">
+      <div class="container">
+        <ul class="breadcrumb-list">
+          <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+          <li class="breadcrumb-item"><a href="products.html">Ürünler</a></li>
+          <li class="breadcrumb-item"><a href="products.html?category=icecek">İçecek</a></li>
+          <li class="breadcrumb-item active">Türk Kahvesi Seti</li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="product-detail">
+      <div class="container">
+        <div class="product-detail-grid">
+          <div class="product-gallery">
+            <div class="product-main-image">
+              <img src="https://via.placeholder.com/600x600" alt="Türk Kahvesi Seti" id="main-product-image">
+              <div class="product-badges">
+                <span class="product-badge bestseller">Çok Satan</span>
+              </div>
+              <button class="gallery-zoom-btn"><i class="fas fa-search-plus"></i></button>
+            </div>
+            <div class="product-thumbnails">
+              <button class="thumbnail-item active" data-image="https://via.placeholder.com/600x600">
+                <img src="https://via.placeholder.com/100x100" alt="Türk Kahvesi Seti - Görsel 1">
+              </button>
+              <button class="thumbnail-item" data-image="https://via.placeholder.com/600x600?text=Image+2">
+                <img src="https://via.placeholder.com/100x100?text=Image+2" alt="Türk Kahvesi Seti - Görsel 2">
+              </button>
+              <button class="thumbnail-item" data-image="https://via.placeholder.com/600x600?text=Image+3">
+                <img src="https://via.placeholder.com/100x100?text=Image+3" alt="Türk Kahvesi Seti - Görsel 3">
+              </button>
+              <button class="thumbnail-item" data-image="https://via.placeholder.com/600x600?text=Image+4">
+                <img src="https://via.placeholder.com/100x100?text=Image+4" alt="Türk Kahvesi Seti - Görsel 4">
+              </button>
+            </div>
+          </div>
+          
+          <div class="product-info-main">
+            <div class="product-supplier-info">
+              <a href="supplier-detail.html?id=3" class="supplier-link">
+                <img src="https://via.placeholder.com/50x50" alt="Osmanlı Kahvecisi Logo" class="supplier-logo-small">
+                <span class="supplier-name">Osmanlı Kahvecisi</span>
+              </a>
+              <div class="supplier-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-text">4.0 (62 değerlendirme)</span>
+              </div>
+            </div>
+            
+            <h1 class="product-title">Türk Kahvesi Seti - Geleneksel Bakır Cezve ve Fincanlar</h1>
+            
+            <div class="product-highlights">
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <a href="#reviews" class="rating-count">36 değerlendirme</a>
+              </div>
+              <div class="product-sku">
+                <span class="sku-label">Ürün Kodu:</span>
+                <span class="sku-value">TKS-1001</span>
+              </div>
+              <div class="product-stock in-stock">
+                <i class="fas fa-check-circle"></i> Stokta
+              </div>
+            </div>
+            
+            <div class="product-price-box">
+              <span class="product-price">€49.99</span>
+              <span class="tax-note">Vergiler dahil</span>
+            </div>
+            
+            <div class="product-short-description">
+              <p>Geleneksel Türk kahvesi deneyimini evinize taşıyan bu özel set, el yapımı bakır cezve ve 4 adet porselen fincan içerir. Osmanlı motifli tasarımı ve özel kutusuyla mükemmel bir hediye seçeneğidir.</p>
+            </div>
+            
+            <div class="product-options">
+              <div class="option-group">
+                <label for="coffee-type">Kahve Türü</label>
+                <div class="option-buttons">
+                  <button class="option-button active">Klasik</button>
+                  <button class="option-button">Damla Sakızlı</button>
+                  <button class="option-button">Dibek</button>
+                </div>
+              </div>
+              
+              <div class="option-group">
+                <label for="grind-type">Öğütme Derecesi</label>
+                <div class="option-buttons">
+                  <button class="option-button active">İnce</button>
+                  <button class="option-button">Orta</button>
+                  <button class="option-button">Kalın</button>
+                </div>
+              </div>
+            </div>
+            
+            <div class="product-quantity">
+              <label for="qty">Adet</label>
+              <div class="quantity-input">
+                <button class="quantity-decrease"><i class="fas fa-minus"></i></button>
+                <input type="number" id="qty" name="qty" value="1" min="1" max="10">
+                <button class="quantity-increase"><i class="fas fa-plus"></i></button>
+              </div>
+            </div>
+            
+            <div class="product-actions">
+              <button class="btn btn-primary btn-lg add-to-cart">
+                <i class="fas fa-shopping-cart"></i> Sepete Ekle
+              </button>
+              <button class="btn-icon-large wishlist-btn">
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="btn-icon-large compare-btn">
+                <i class="fas fa-exchange-alt"></i>
+              </button>
+            </div>
+            
+            <div class="product-meta">
+              <div class="meta-item">
+                <i class="fas fa-truck"></i>
+                <div class="meta-info">
+                  <span class="meta-title">Hızlı Teslimat</span>
+                  <span class="meta-text">2-4 iş günü içinde kargoya verilir</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-undo"></i>
+                <div class="meta-info">
+                  <span class="meta-title">30 Gün İade</span>
+                  <span class="meta-text">Koşulsuz iade garantisi</span>
+                </div>
+              </div>
+              <div class="meta-item">
+                <i class="fas fa-shield-alt"></i>
+                <div class="meta-info">
+                  <span class="meta-title">Güvenli Ödeme</span>
+                  <span class="meta-text">SSL şifrelemeli güvenli ödeme</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="product-share">
+              <span class="share-label">Paylaş:</span>
+              <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="product-details-tabs">
+      <div class="container">
+        <div class="tabs">
+          <button class="tab-button active" data-tab="description">Ürün Açıklaması</button>
+          <button class="tab-button" data-tab="specifications">Özellikler</button>
+          <button class="tab-button" data-tab="reviews">Değerlendirmeler (36)</button>
+          <button class="tab-button" data-tab="shipping">Kargo ve İade</button>
+        </div>
+        
+        <div class="tab-content active" id="description">
+          <div class="product-description">
+            <h3>Geleneksel Türk Kahvesi Deneyimi</h3>
+            <p>Osmanlı Kahvecisi'nin özel olarak hazırladığı bu Türk Kahvesi Seti, geleneksel Türk kahvesi deneyimini evinize taşıyor. Set içerisinde bulunan el yapımı bakır cezve ve 4 adet porselen fincan, Osmanlı motiflerinden ilham alan tasarımıyla göz dolduruyor.</p>
+            
+            <h3>Özel Harman Türk Kahvesi</h3>
+            <p>Set içerisinde yer alan özel harman Türk kahvesi, Anadolu'nun farklı bölgelerinden toplanan en kaliteli kahve çekirdeklerinin geleneksel yöntemlerle kavrulması ve öğütülmesiyle hazırlanıyor. Damak tadınıza göre klasik, damla sakızlı veya dibek kahve seçeneklerinden birini tercih edebilirsiniz.</p>
+            
+            <h3>El İşçiliği Bakır Cezve</h3>
+            <p>Setin en dikkat çekici parçası olan bakır cezve, usta zanaatkarlar tarafından el işçiliğiyle üretiliyor. Bakırın ısıyı eşit dağıtma özelliği sayesinde kahveniz ideal kıvamda pişiyor ve eşsiz aromasını koruyor. Cezvenin iç kısmı, sağlığa zararlı olmaması için özel bir kaplamayla kaplanmıştır.</p>
+            
+            <h3>Osmanlı Motifli Fincanlar</h3>
+            <p>Set içerisinde yer alan 4 adet porselen fincan, Osmanlı saray motifleriyle süslenmiştir. İnce işçilikle hazırlanan fincanlar, kahvenizin tadını çıkarmanızı sağlarken göz zevkinize de hitap ediyor.</p>
+            
+            <h3>Mükemmel Bir Hediye</h3>
+            <p>Özel tasarım kutusuyla birlikte gelen Türk Kahvesi Seti, sevdiklerinize verebileceğiniz mükemmel bir hediye seçeneğidir. Türk kültürünün önemli bir parçası olan Türk kahvesini tanıtmak için de ideal bir settir.</p>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="specifications">
+          <div class="product-specifications">
+            <table class="specifications-table">
+              <tbody>
+                <tr>
+                  <th>Ürün Adı</th>
+                  <td>Türk Kahvesi Seti</td>
+                </tr>
+                <tr>
+                  <th>Marka</th>
+                  <td>Osmanlı Kahvecisi</td>
+                </tr>
+                <tr>
+                  <th>Menşei</th>
+                  <td>Türkiye</td>
+                </tr>
+                <tr>
+                  <th>Set İçeriği</th>
+                  <td>1 adet bakır cezve, 4 adet porselen fincan, 4 adet fincan tabağı, 100g Türk kahvesi</td>
+                </tr>
+                <tr>
+                  <th>Cezve Malzemesi</th>
+                  <td>Bakır (iç kısmı gıdaya uygun kaplama)</td>
+                </tr>
+                <tr>
+                  <th>Cezve Kapasitesi</th>
+                  <td>4 kişilik (400ml)</td>
+                </tr>
+                <tr>
+                  <th>Fincan Malzemesi</th>
+                  <td>Porselen</td>
+                </tr>
+                <tr>
+                  <th>Fincan Kapasitesi</th>
+                  <td>75ml</td>
+                </tr>
+                <tr>
+                  <th>Kahve Türü</th>
+                  <td>Türk Kahvesi (Klasik, Damla Sakızlı, Dibek)</td>
+                </tr>
+                <tr>
+                  <th>Öğütme Derecesi</th>
+                  <td>İnce, Orta, Kalın</td>
+                </tr>
+                <tr>
+                  <th>Kutu Boyutları</th>
+                  <td>30 x 25 x 15 cm</td>
+                </tr>
+                <tr>
+                  <th>Ağırlık</th>
+                  <td>1.2 kg</td>
+                </tr>
+                <tr>
+                  <th>Garanti</th>
+                  <td>2 yıl</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="reviews">
+          <div class="product-reviews">
+            <div class="reviews-summary">
+              <div class="rating-average">
+                <div class="average-number">4.0</div>
+                <div class="average-stars">
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <span class="total-reviews">36 değerlendirme</span>
+                </div>
+              </div>
+              
+              <div class="rating-breakdown">
+                <div class="rating-bar">
+                  <span class="rating-label">5 Yıldız</span>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 60%;"></div>
+                  </div>
+                  <span class="rating-count">22</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">4 Yıldız</span>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 20%;"></div>
+                  </div>
+                  <span class="rating-count">7</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">3 Yıldız</span>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 10%;"></div>
+                  </div>
+                  <span class="rating-count">4</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">2 Yıldız</span>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 5%;"></div>
+                  </div>
+                  <span class="rating-count">2</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">1 Yıldız</span>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 3%;"></div>
+                  </div>
+                  <span class="rating-count">1</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="review-form-container">
+              <button class="btn btn-primary write-review-btn">Değerlendirme Yaz</button>
+              <form class="review-form" style="display: none;">
+                <h3>Değerlendirmenizi Yazın</h3>
+                <div class="form-group">
+                  <label for="review-rating">Puanınız</label>
+                  <div class="rating-select">
+                    <i class="far fa-star" data-rating="1"></i>
+                    <i class="far fa-star" data-rating="2"></i>
+                    <i class="far fa-star" data-rating="3"></i>
+                    <i class="far fa-star" data-rating="4"></i>
+                    <i class="far fa-star" data-rating="5"></i>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="review-title">Başlık</label>
+                  <input type="text" id="review-title" placeholder="Değerlendirmeniz için bir başlık yazın">
+                </div>
+                <div class="form-group">
+                  <label for="review-text">Değerlendirme</label>
+                  <textarea id="review-text" rows="5" placeholder="Ürün hakkındaki düşüncelerinizi paylaşın"></textarea>
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn btn-primary">Gönder</button>
+                  <button type="button" class="btn btn-outline cancel-review">İptal</button>
+                </div>
+              </form>
+            </div>
+            
+            <div class="reviews-list">
+              <div class="review-item">
+                <div class="review-header">
+                  <div class="reviewer-info">
+                    <span class="reviewer-name">Ahmet Y.</span>
+                    <span class="review-date">15 Mart 2025</span>
+                  </div>
+                  <div class="review-rating">
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="review-title">Mükemmel bir set</h4>
+                <div class="review-content">
+                  <p>Ürün beklentilerimin üzerinde çıktı. Cezve gerçekten kaliteli ve kahveyi çok güzel pişiriyor. Fincanlar da oldukça şık. Hediye olarak aldım ve çok beğenildi. Kesinlikle tavsiye ederim.</p>
+                </div>
+              </div>
+              
+              <div class="review-item">
+                <div class="review-header">
+                  <div class="reviewer-info">
+                    <span class="reviewer-name">Zeynep K.</span>
+                    <span class="review-date">2 Mart 2025</span>
+                  </div>
+                  <div class="review-rating">
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="review-title">Güzel ama paketleme iyileştirilebilir</h4>
+                <div class="review-content">
+                  <p>Ürünün kendisi çok güzel ve kaliteli. Kahve de lezzetli. Ancak kargo sırasında kutu biraz zarar görmüştü. Daha sağlam bir paketleme yapılabilir. Yine de üründen memnunum.</p>
+                </div>
+              </div>
+              
+              <div class="review-item">
+                <div class="review-header">
+                  <div class="reviewer-info">
+                    <span class="reviewer-name">Mehmet A.</span>
+                    <span class="review-date">18 Şubat 2025</span>
+                  </div>
+                  <div class="review-rating">
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <h4 class="review-title">Fiyatı biraz yüksek</h4>
+                <div class="review-content">
+                  <p>Ürün kaliteli ama fiyatı biraz yüksek geldi. Cezve güzel ama fincanlar beklediğim kadar kaliteli değildi. Kahve lezzetli. Ortalama bir ürün diyebilirim.</p>
+                </div>
+              </div>
+              
+              <div class="load-more-container">
+                <button class="btn btn-outline load-more-reviews">Daha Fazla Göster</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="shipping">
+          <div class="shipping-info">
+            <h3>Kargo Bilgileri</h3>
+            <p>Siparişleriniz, ödemenizin onaylanmasından sonra 1-2 iş günü içerisinde kargoya verilmektedir. Türkiye içi teslimat süresi ortalama 2-4 iş günüdür.</p>
+            <p>Avrupa ülkelerine teslimat süresi 5-7 iş günü, diğer ülkelere teslimat süresi 7-14 iş günüdür.</p>
+            <p>Kargo takip numarası, ürün kargoya verildiğinde size e-posta ile gönderilecektir.</p>
+            
+            <h3>İade Koşulları</h3>
+            <p>Ürünlerimiz 30 gün içerisinde iade edilebilir. İade etmek istediğiniz ürünün kullanılmamış, denenmemiş ve orijinal ambalajında olması gerekmektedir.</p>
+            <p>İade işlemi için müşteri hizmetlerimizle iletişime geçmeniz ve iade nedeninizi belirtmeniz gerekmektedir. İade onayından sonra, ürünü orijinal ambalajında ve faturasıyla birlikte belirtilen adrese göndermeniz gerekmektedir.</p>
+            <p>İade kargo ücreti alıcıya aittir. Ancak, ürünün ayıplı olması durumunda kargo ücreti firmamız tarafından karşılanacaktır.</p>
+            
+            <h3>Garanti Koşulları</h3>
+            <p>Ürünlerimiz 2 yıl garanti kapsamındadır. Garanti, üretim hatalarını ve malzeme kusurlarını kapsamaktadır.</p>
+            <p>Garanti, yanlış kullanım, kaza, ihmal veya normal aşınma ve yıpranma sonucu oluşan hasarları kapsamamaktadır.</p>
+            <p>Garanti kapsamındaki bir sorun yaşamanız durumunda, müşteri hizmetlerimizle iletişime geçmeniz gerekmektedir.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="related-products">
+      <div class="container">
+        <h2 class="section-title">Benzer Ürünler</h2>
+        <div class="products-slider">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="Türk Çay Seti">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Türk Çay Seti</h3>
+              <p class="product-supplier">Tedarikçi: Osmanlı Kahvecisi</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(28)</span>
+              </div>
+              <p class="product-price">€39.99</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-badge discount">-10%</div>
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="Bakır Cezve">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Bakır Cezve</h3>
+              <p class="product-supplier">Tedarikçi: Osmanlı Kahvecisi</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="rating-count">(19)</span>
+              </div>
+              <p class="product-price"><span class="old-price">€29.99</span> €26.99</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="Osmanlı Motifli Fincan Seti">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Osmanlı Motifli Fincan Seti</h3>
+              <p class="product-supplier">Tedarikçi: Kapadokya Seramik</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(45)</span>
+              </div>
+              <p class="product-price">€34.99</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-badge new">Yeni</div>
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="Özel Harman Türk Kahvesi">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Özel Harman Türk Kahvesi</h3>
+              <p class="product-supplier">Tedarikçi: Osmanlı Kahvecisi</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(12)</span>
+              </div>
+              <p class="product-price">€14.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="recently-viewed">
+      <div class="container">
+        <h2 class="section-title">Son İncelediğiniz Ürünler</h2>
+        <div class="products-slider">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="El Dokuma Kilim">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">El Dokuma Kilim</h3>
+              <p class="product-supplier">Tedarikçi: Anadolu Dokuma</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(124)</span>
+              </div>
+              <p class="product-price">€129.99</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="Türk Lokumu Set">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">Türk Lokumu Set</h3>
+              <p class="product-supplier">Tedarikçi: İstanbul Şekerleme</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span class="rating-count">(42)</span>
+              </div>
+              <p class="product-price">€24.99</p>
+            </div>
+          </div>
+          
+          <div class="product-card">
+            <div class="product-image">
+              <img src="https://via.placeholder.com/300x300" alt="El Yapımı Seramik Tabak">
+              <div class="product-actions">
+                <button class="btn-icon" title="Hızlı Görüntüle"><i class="fas fa-eye"></i></button>
+                <button class="btn-icon" title="Sepete Ekle"><i class="fas fa-shopping-cart"></i></button>
+                <button class="btn-icon" title="Favorilere Ekle"><i class="far fa-heart"></i></button>
+              </div>
+            </div>
+            <div class="product-info">
+              <h3 class="product-title">El Yapımı Seramik Tabak</h3>
+              <p class="product-supplier">Tedarikçi: Kapadokya Seramik</p>
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-count">(78)</span>
+              </div>
+              <p class="product-price">€39.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>TurkShipGlobal</h2>
+          <p>Türk Ürünlerini Dünyaya Açan Platform</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-links-column">
+            <h3>Platform</h3>
+            <ul>
+              <li><a href="index.html">Ana Sayfa</a></li>
+              <li><a href="suppliers.html">Tedarikçiler</a></li>
+              <li><a href="products.html">Ürünler</a></li>
+              <li><a href="orders.html">Siparişler</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3>Destek</h3>
+            <ul>
+              <li><a href="#">Yardım Merkezi</a></li>
+              <li><a href="#">SSS</a></li>
+              <li><a href="#">İletişim</a></li>
+              <li><a href="#">Geri Bildirim</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-column">
+            <h3>Yasal</h3>
+            <ul>
+              <li><a href="#">Kullanım Koşulları</a></li>
+              <li><a href="#">Gizlilik Politikası</a></li>
+              <li><a href="#">Çerez Politikası</a></li>
+              <li><a href="#">KVKK</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-social">
+          <h3>Bizi Takip Edin</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TurkShipGlobal. Tüm hakları saklıdır.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="product-detail.js"></script>
+</body>
+</html>
